@@ -13,22 +13,18 @@ schema:
       2. 默认开启 emoji 表情支持
       3. 加上很多特殊符号的输入支持
       4. 繁简切换支持
-      5. 许多智能纠错 dependencies:
-    - stroke
+      5. 许多智能纠错
 
 switches:
-  - name: zh_simp_s2t
-    reset: 0
-    states: [ 简, 繁 ]
-  - name: ascii_punct
-    reset: 0
-    states: [ 。，, ．， ]
-  - name: full_shape
-    reset: 0
-    states: [ 半, 全 ]
   - name: ascii_mode
     reset: 0
-    states: [ 中, 英 ]
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: extended_charset
+    states: [ 常用, 增廣 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
 
 engine:
   processors:
@@ -88,69 +84,7 @@ translator:
     - xform/([jqxy])v/$1u/
 
 punctuator:
-  import_preset: symbols
-  full_shape:
-    "`": "｀"
-    "~": "～"
-    "!": "！"
-    "@": "＠"
-    "#": "＃"
-    "$": "￥"
-    "%": "％"
-    "^": "……"
-    "&": "＆"
-    "*": "×"
-    "(": "（"
-    ")": "）"
-    "_": "——"
-    "+": "＋"
-    "-": "－"
-    "=": "＝"
-    "[": "【"
-    "]": "】"
-    "{": "｛"
-    "}": "｝"
-    "|": "｜"
-    "\\": "、"
-    "/": "、"
-    ";": "；"
-    "'": "‘"
-    ",": "，"
-    ".": "。"
-    "<": "《"
-    ">": "》"
-    "?": "？"
-  half_shape:
-    "`": "·"
-    "~": "～"
-    "!": "！"
-    "@": "@"
-    "#": "#"
-    "$": "￥"
-    "%": "%"
-    "^": "……"
-    "&": "&"
-    "*": "×"
-    "(": "（"
-    ")": "）"
-    "_": "——"
-    "+": "+"
-    "-": "-"
-    "=": "="
-    "[": "【"
-    "]": "】"
-    "{": "｛"
-    "}": "｝"
-    "|": "｜"
-    "\\": "、"
-    "/": "、"
-    ";": "；"
-    "'": "’"
-    ",": "，"
-    ".": "。"
-    "<": "《"
-    ">": "》"
-    "?": "？"
+  import_preset: default
 
 key_binder:
   import_preset: default
@@ -158,8 +92,4 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    # hack: to enable "/fh" style symbols, '/' must be mapped to a [list].
-    # so those who have customized '/' for direct commit won't be affected by
-    # this change.
-    punct: "^/([0-9]+[a-z]*|[a-z]+)$"
-    reverse_lookup: "`[a-z]*'?$"
+    reverse_lookup: "^z[a-z]*'?$"
