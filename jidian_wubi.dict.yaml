@@ -371,6 +371,7 @@ encoder:
 其一	adgg	1
 勘正	adgh	1
 若不	adgi	1
+基带	adgk	1
 惹事	adgk	1
 若再	adgm	1
 惹来	adgo	1
@@ -11646,6 +11647,7 @@ encoder:
 胖墩	eufy	1
 脱开	euga	1
 脱下	eugh	1
+胶带	eugk	1
 胶囊	eugk	1
 脱毒	eugx	1
 脱班	eugy	1
@@ -20384,7 +20386,7 @@ encoder:
 鼎鼎大名	hhdq	1
 上奏	hhdw	1
 上服	hheb	1
-上肥	hhec	1
+止盈	hhec	1
 上月	hhee	1
 上肢	hhef	1
 上膛	hhei	1
@@ -20497,7 +20499,7 @@ encoder:
 上镜	hhqu	1
 上报	hhrb	1
 上年	hhrh	1
-上操	hhrk	1
+止损	hhrk	1
 上扬	hhrn	1
 目的	hhrq	1
 上手	hhrt	1
@@ -21379,6 +21381,7 @@ encoder:
 此心	hxny	1
 此类	hxod	1
 柴火	hxoo	1
+紫米	hxoy	1
 柴米	hxoy	1
 紫褐	hxpu	1
 此案	hxpv	1
@@ -28739,8 +28742,8 @@ encoder:
 中英	kham	1
 唬	kham	1
 距	khan	1
-跨区	khaq	1
 中欧	khaq	1
+跨区	khaq	1
 跷	khaq	1
 蹀	khas	1
 中医	khat	1
@@ -40514,6 +40517,7 @@ encoder:
 袄	put	1
 审判长	puta	1
 袄	putd	1
+实盘	pute	1
 实行	putf	1
 被告	putf	1
 初等	putf	1
@@ -48361,6 +48365,7 @@ encoder:
 手表	rtge	1
 捶	rtgf	1
 手球	rtgf	1
+手环	rtgg	1
 手	rtgh	1
 手下	rtgh	1
 卑琐	rtgi	1
@@ -54254,6 +54259,7 @@ encoder:
 篡改	thnt	1
 长此以往	thnt	1
 息	thnu	1
+息屏	thnu	1
 自习	thnu	1
 自怜	thnw	1
 臭屁	thnx	1
@@ -67397,6 +67403,7 @@ encoder:
 费油	xjim	1
 约旦河	xjis	1
 费时	xjjf	1
+费电	xjjn	1
 弗	xjk	1
 继电器	xjkk	1
 缦	xjl	1
@@ -70654,6 +70661,7 @@ encoder:
 敲门	ymuy	1
 高妙	ymvi	1
 讷	ymw	1
+调仓	ymwb	1
 高估	ymwd	1
 市值	ymwf	1
 庙会	ymwf	1
@@ -70917,6 +70925,7 @@ encoder:
 忘掉	ynrh	1
 肩挑	ynri	1
 扁担	ynrj	1
+戾气	ynrn	1
 废气	ynrn	1
 高蛋白	ynrr	1
 盲打	ynrs	1

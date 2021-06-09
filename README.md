@@ -35,3 +35,7 @@ cp -r *.yaml ~/Library/Rime/
 ```
 
 Avoid period with double-space: `System -> Keyboard -> Text -> unselect Add period with double-space`
+
+## References
+
+Clover Pinyin: https://github.com/fkxxyz/rime-cloverpinyin

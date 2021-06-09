@@ -2,11 +2,11 @@
 # encoding: utf-8
 
 patch:
-  menu/page_size: 5
+  menu/page_size: 9
 
   schema_list:
+    - schema: clover
     - schema: wubi
-    - schema: luna_pinyin
 
   switcher/hotkeys:
     - Control+grave
