@@ -36,6 +36,12 @@ cp -r *.yaml ~/Library/Rime/
 
 Avoid period with double-space: `System -> Keyboard -> Text -> unselect Add period with double-space`
 
+## Rime on Windows
+
+```
+cp *.yaml /mnt/c/Users/zhiwei/AppData/Roaming/Rime/
+```
+
 ## References
 
 Clover Pinyin: https://github.com/fkxxyz/rime-cloverpinyin
