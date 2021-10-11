@@ -7,20 +7,27 @@ Here is a wubi table I modified from jidian-wubi.
 ## Install Rime for IBus
 
 ```
-$ sudo apt install ibus-rime librime-data-pinyin-simp
+sudo apt install ibus-rime
+```
+
+## Install Rime for Fcitx
+
+```
+sudo apt install fcitx-rime
 ```
 
 ## Configure Rime
 
 ```
-$ cp *.yaml ~/.config/ibus/rime
+cp *.yaml ~/.config/ibus/rime/
+
+cp *.yaml ~/.config/fcitx/rime/
 ```
 
-## Restart Rime
+## Restart IBus Rime
 
 ```
-$ rm -f ~/.config/ibus/rime/default.yaml
-$ ibus-daemon -xdr
+ibus-daemon -xdr
 ```
 
 ## Rime on MacOS
