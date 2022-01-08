@@ -2,8 +2,6 @@
 # encoding: utf-8
 
 patch:
-  menu/page_size: 5
-
   schema_list:
     - schema: wubi
     - schema: clover
